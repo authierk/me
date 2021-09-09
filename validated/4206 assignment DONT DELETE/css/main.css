@@ -1,0 +1,275 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif 
+}
+
+/* navigation menu */
+.topnav{
+    font-size: 0.75rem;
+}
+
+.topnav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(61, 58, 129);    
+}
+  
+.topnav li{
+    float: left;    
+    padding-inline-start: 4.2px;    
+}
+  
+.topnav li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 80px;
+    text-decoration: none;
+}  
+  
+.topnav li a:hover{
+    background-color: rgb(17, 16, 9, 0.993); 
+}
+
+.footer{
+    font-size: 0.5rem;
+}
+  
+.footer ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(61, 58, 129);
+}
+    
+.footer li{
+    float: left;    
+    padding-inline-start: 4.2px;
+}
+    
+.footer li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 70px;
+    text-decoration: none;
+}    
+    
+.footer li a:hover{
+    background-color:rgb(17, 16, 9, 0.993);
+}
+
+ /* responsive image gallery */
+ div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+} 
+
+/* drop down menu */
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+ /* customized */
+body{
+  background-color: rgb(162, 172, 175);
+}
+
+#h1{
+  background-color: rgb(48, 49, 46);
+  font-size: 50px;
+  border: 2px solid rgb(14, 13, 13);    
+  outline: rgb(117, 243, 14, 0.993) solid 5px; 
+  margin: 3%;
+  text-align: center;    
+  text-shadow: 2px 2px 5px rgb(255, 2, 2);
+  color: rgb(182, 182, 182, 0.993)  
+  
+}
+ 
+#h2{
+  background-color: rgb(48, 49, 46);
+  border: 2px solid rgb(14, 13, 13);  
+  outline: rgb(117, 243, 14, 0.993)  solid 5px;
+  margin: 3%;
+  text-align: center;    
+  text-shadow: 2px 2px 5px red;
+  color: rgb(182, 182, 182, 0.993)
+}
+
+.srctext{
+  text-align: justify;
+  padding:2%;
+}
+
+.text{
+  text-align: justify;
+  padding:2%;
+ } 
+
+.mytext{
+  color: rgb(14, 13, 13);
+  text-align: start;
+  padding:2%;
+  font-size: 20px;
+  font-style: italic;   
+  text-decoration-style: solid;
+}
+
+  .mytext1{
+   color: rgb(14, 13, 13);
+   text-align: start;
+    padding:2%;
+    font-size: 20px;
+    font-style: oblique; 
+    text-decoration: underline;   
+    text-decoration-color: rgb(14, 13, 13);
+    text-decoration-style: solid;
+  }
+  
+p.normal{
+    border: 2px solid rgb(14, 13, 13);
+    padding: 3px;
+    margin: 1pc;
+  }
+      
+.img{
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: auto;      
+  }
+  
+.img2{
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: auto; 
+  }
+
+.audio{
+  display: grid;
+  place-items: center;
+}
+
+.video{
+  display: grid;
+  place-items: center;
+}
+
+.forms{
+  display: grid;
+  place-items: center;
+}
+
+ul{
+  list-style-type: square;
+  
+} 
+
+li{
+  color:rgb(48, 49, 46);
+ 
+}
+ 
+
+
+
+
+
+ 
+
+  
+
+  
+  
+
+  
+
+  
+   
